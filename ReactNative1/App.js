@@ -7,9 +7,9 @@ export default function App() {
       <View style={styles.profile}>
         <Image
           style={styles.image}
-          source={require("./images/pic.png")} // static image
+          source={require("./images/picture.png")} // static image
         />
-        <Text style={styles.name}>Angelo Maldora</Text>
+        <Text style={styles.name}>Jesrel Pilipino</Text>
         <Text style={styles.course}>Information Technology 3</Text>
       </View>
       <Text style={styles.subject}>My Subjects</Text>
@@ -65,38 +65,6 @@ const styles = StyleSheet.create({
     justifyContent: "flex-start",
     padding: 20,
   },
-  profile: {
-    height: 210,
-    width: 320,
-    backgroundColor: "#23459c",
-    marginTop: 40,
-    borderTopRightRadius: 40,
-    borderBottomRightRadius: 40,
-    padding: 10,
-    flexDirection: "column",
-  },
-  maintext: {
-    color: "white",
-    marginTop: 20,
-  },
-  name: {
-    fontSize: 30,
-    color: "white",
-  },
-  course: {
-    fontSize: 20,
-    color: "white",
-    marginBottom: 10,
-  },
-  subject: {
-    fontSize: 15,
-    marginTop: 20,
-    marginBottom: 5,
-  },
-  sub1: {
-    fontWeight: "bold",
-    fontSize: 20,
-  },
   caption: {
     marginLeft: 38,
   },
@@ -129,4 +97,37 @@ const styles = StyleSheet.create({
     flexDirection: "column",
     alignItems: "flex-start",
   },
+  profile: {
+    height: 210,
+    width: 320,
+    backgroundColor: "#23459c",
+    marginTop: 40,
+    borderTopRightRadius: 40,
+    borderBottomRightRadius: 40,
+    padding: 10,
+    flexDirection: "column",
+  },
+  maintext: {
+    color: "white",
+    marginTop: 20,
+  },
+  name: {
+    fontSize: 30,
+    color: "white",
+  },
+  course: {
+    fontSize: 20,
+    color: "white",
+    marginBottom: 10,
+  },
+  subject: {
+    fontSize: 15,
+    marginTop: 20,
+    marginBottom: 5,
+  },
+  sub1: {
+    fontWeight: "bold",
+    fontSize: 20,
+  },
+  
 });
